@@ -9,60 +9,55 @@
 
 <body onload="myFunction()" style="margin:0;">
 
-        <div id="loader"></div>
-        <div style="display:none;" id="myDiv" class="animate-bottom">
-            <div class="container">
-                <div class="sidebar">
-                    <nav>
-                        <ul>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Hobby</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="content">
-                    <selection class="hero">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+        <div class="container">
+            <div class="sidebar">
+                <nav>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Hobby</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="content">
+                <selection class="hero">
 
-                        <img src="zdjecie_CV.png" class="img-fluid" alt="Responsive image" width="270px" height="350px" style="border: 2px solid orange;" />
+                    <img src="zdjecie_CV.png" class="img-fluid" alt="Responsive image" width="270px" height="350px" style="border: 2px solid orange;" />
 
 
-                        <div class="hero-content">
-                            <h1>Kamil Dudek <br></h1>
-                            <h2>Web Developer</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec vehicula ante. Donec ac sapien eu nisi commodo maximus eget vitae lectus. Aliquam erat volutpat. Pellentesque eget turpis quis ipsum tincidunt maximus. Suspendisse ut nunc ullamcorper,
-                                scelerisque diam quis, facilisis eros. Aliquam vitae metus dictum, consectetur enim elementum, malesuada nunc. Duis at tortor fermentum, viverra dui ac, scelerisque mauris. Nulla aliquam mi a commodo auctor. Integer pellentesque,
-                                sapien et elementum consectetur, tortor urna euismod arcu, id lacinia diam lacus vitae tellus. In efficitur tortor nunc, vitae consectetur metus imperdiet sed. Fusce ante lorem, accumsan eu imperdiet posuere, cursus ut
-                                nisi. Nulla ligula massa, aliquam nec eros lobortis, dignissim dictum ex. Nulla lacinia varius efficitur. Nam rhoncus egestas feugiat. In gravida libero sed enim elementum imperdiet. Suspendisse potenti. In eget lorem finibus,
-                                sagittis augue sed, efficitur ex. Maecenas nec nisl scelerisque, porttitor orci quis, aliquet quam. Nunc faucibus sagittis justo. Aliquam ut eleifend massa. Suspendisse bibendum at lacus non porta. Quisque dapibus ipsum
-                                vitae dapibus congue. Phasellus vitae sem elementum, accumsan purus id, mattis augue.
-                            </p>
-                            <a class="action-btn" href="#">Contact me</a>
-                        </div>
-                    </selection>
-                </div>
-                <div class="footer">
-                    <footer>
-                       
-                    </footer>
-                </div>
+                    <div class="hero-content">
+                        <h1>Kamil Dudek <br></h1>
+                        <h2>Web Developer</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec vehicula ante. Donec ac sapien eu nisi commodo maximus eget vitae lectus. Aliquam erat volutpat. Pellentesque eget turpis quis ipsum tincidunt maximus. Suspendisse ut nunc ullamcorper,
+                            scelerisque diam quis, facilisis eros. Aliquam vitae metus dictum, consectetur enim elementum, malesuada nunc. Duis at tortor fermentum, viverra dui ac, scelerisque mauris. Nulla aliquam mi a commodo auctor. Integer pellentesque,
+                            sapien et elementum consectetur, tortor urna euismod arcu, id lacinia diam lacus vitae tellus. In efficitur tortor nunc, vitae consectetur metus imperdiet sed. Fusce ante lorem, accumsan eu imperdiet posuere, cursus ut nisi.
+                            Nulla ligula massa, aliquam nec eros lobortis, dignissim dictum ex. Nulla lacinia varius efficitur. Nam rhoncus egestas feugiat. In gravida libero sed enim elementum imperdiet. Suspendisse potenti. In eget lorem finibus, sagittis
+                            augue sed, efficitur ex. Maecenas nec nisl scelerisque, porttitor orci quis, aliquet quam. Nunc faucibus sagittis justo. Aliquam ut eleifend massa. Suspendisse bibendum at lacus non porta. Quisque dapibus ipsum vitae dapibus
+                            congue. Phasellus vitae sem elementum, accumsan purus id, mattis augue.
+                        </p>
+                        <a class="action-btn" href="#">Contact me</a>
+                    </div>
+                </selection>
             </div>
         </div>
+    </div>
 
-        <script>
-            var myVar;
+    <script>
+        var myVar;
 
-            function myFunction() {
-                myVar = setTimeout(showPage, 1200);
-            }
+        function myFunction() {
+            myVar = setTimeout(showPage, 1200);
+        }
 
-            function showPage() {
-                document.getElementById("loader").style.display = "none";
-                document.getElementById("myDiv").style.display = "block";
-            }
-        </script>
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+    </script>
 </body>
 
 </html>
