@@ -8,7 +8,6 @@ body {
     grid-area: content;
 }
 
-
 .sidebar {
     grid-area: sidebar;
     background: linear-gradient(to right, rgba(249, 107, 142, 1), rgba(218, 103, 230, 1), rgba(130, 125, 253, 1));
@@ -29,7 +28,6 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 130px 800px 250px;
 }
-
 
 .content,
 .sidebar,
@@ -100,36 +98,9 @@ nav li a:hover {
     box-shadow: 0 10px 50px rgba(188, 197, 216, 1);
 }
 
-footer ul {
-    max-width: 640px;
-    margin: 2em auto;
-    padding: 0;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-}
-
-footer ul li {
-    list-style: none;
-    align-self: flex-end;
-}
-
-footer ul li a {
-    text-decoration: none;
-    color: #c1c6ce;
-}
-
-svg {
-    width: 40%;
-}
-
-footer p {
-    font-size: 0.8em;
-}
-
 @media (min-width: 1040px) {
     .container {
-        grid-template-areas: "sidebar content" "sidebar footer" ;
+        grid-template-areas: "sidebar content" "sidebar footer";
         grid-template-columns: 300px 1fr;
         grid-template-rows: 1fr auto;
     }
@@ -239,19 +210,19 @@ footer p {
     text-align: center;
 }
 
-
-.Img{
+.Img {
     overflow: hidden;
     padding: 0;
     width: 300px;
     height: 300px;
-
 }
+
 .Img img {
     transition-duration: 3s;
     margin: 0 auto;
     display: block;
 }
+
 .Img img:hover {
     transform: scale(1.2);
     -webkit-transform: scale(1.2);
